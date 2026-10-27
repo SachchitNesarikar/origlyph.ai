@@ -1,0 +1,535 @@
+[
+  {
+    "id": "artifact-001",
+    "title": "Under the Wave off Kanagawa (The Great Wave)",
+    "description": "A world-renowned woodblock print depicting towering cresting waves framing Mount Fuji in the background. Part of the 'Thirty-Six Views of Mount Fuji' series.",
+    "media_url": "https://images.metmuseum.org/CRDImages/as/original/DP130155.jpg",
+    "thumbnail_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP130155.jpg",
+    "source_name": "The Metropolitan Museum of Art",
+    "source_url": "https://www.metmuseum.org/art/collection/search/45434",
+    "creator": "Katsushika Hokusai (Japanese, 1760–1849)",
+    "date_created": "ca. 1830–1832 (Edo period)",
+    "creation_location": "Edo (modern-day Tokyo), Japan",
+    "depicted_location": "Off the coast of Kanagawa Prefecture overlooking Mount Fuji, Japan",
+    "discovery_location": null,
+    "current_collection": "Metropolitan Museum of Art, New York, NY",
+    "latitude": 35.6895,
+    "longitude": 139.6917,
+    "location_basis": "creation",
+    "location_confidence": "verified",
+    "rights_statement": "CC0 1.0 Universal (Public Domain)",
+    "attribution": "Katsushika Hokusai / The Metropolitan Museum of Art (Open Access)",
+    "verified_facts": [
+      {
+        "id": "f001-1",
+        "category": "production",
+        "fact_text": "Engraved and printed in the commercial workshops of Edo using polychrome woodblock print (nishiki-e) techniques.",
+        "source_citation": "Metropolitan Museum Department of Asian Art, Accession No. JP1847"
+      },
+      {
+        "id": "f001-2",
+        "category": "pigment",
+        "fact_text": "Utilized synthetic Prussian Blue (Berlin blue) imported via Nagasaki, contrasting with traditional indigo.",
+        "source_citation": "Tokyo National Museum Archival Pigment Analysis (2019)"
+      },
+      {
+        "id": "f001-3",
+        "category": "geography",
+        "fact_text": "The boats depicted are oshiokuri-bune, swift cargo transport vessels navigating Edo Bay toward the Nihonbashi fish markets.",
+        "source_citation": "Edo-Tokyo Museum Maritime Archival Studies"
+      }
+    ],
+    "relations": [
+      {
+        "target_id": "creator-hokusai",
+        "relation_type": "created by",
+        "target_name": "Katsushika Hokusai",
+        "target_type": "Creator",
+        "evidence_source_id": "f001-1",
+        "notes": "Master ukiyo-e painter and printmaker active during the late Edo period."
+      },
+      {
+        "target_id": "place-edo",
+        "relation_type": "created in",
+        "target_name": "Edo (Tokyo)",
+        "target_type": "Place",
+        "evidence_source_id": "f001-1",
+        "notes": "Capital seat of the Tokugawa Shogunate and print publishing hub."
+      },
+      {
+        "target_id": "tradition-ukiyoe",
+        "relation_type": "associated with",
+        "target_name": "Ukiyo-e ('Pictures of the Floating World')",
+        "target_type": "Cultural Tradition",
+        "evidence_source_id": "f001-1",
+        "notes": "Genre of Japanese art flourishing from the 17th through 19th centuries."
+      },
+      {
+        "target_id": "collection-met",
+        "relation_type": "held by",
+        "target_name": "The Metropolitan Museum of Art",
+        "target_type": "Collection",
+        "evidence_source_id": "f001-1",
+        "notes": "Accession 1936 / JP1847, H. O. Havemeyer Collection."
+      },
+      {
+        "target_id": "artifact-002",
+        "relation_type": "related to",
+        "target_name": "Night View of Saruwaka-machi",
+        "target_type": "Artifact",
+        "evidence_source_id": "f001-3",
+        "notes": "Contemporary Edo woodblock print documenting metropolitan urban life."
+      }
+    ]
+  },
+  {
+    "id": "artifact-002",
+    "title": "Night View of Saruwaka-machi (Saruwaka-chō yoru no kei)",
+    "description": "Full moon casting dramatic human shadows along Saruwaka-chō, the designated theater district of Edo established following the 1841 Tenpō reforms.",
+    "media_url": "https://images.metmuseum.org/CRDImages/as/original/DP118320.jpg",
+    "thumbnail_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP118320.jpg",
+    "source_name": "Brooklyn Museum / Metropolitan Museum of Art",
+    "source_url": "https://www.brooklynmuseum.org/opencollection/objects/60074",
+    "creator": "Utagawa Hiroshige (Japanese, 1797–1858)",
+    "date_created": "1856 (9th month)",
+    "creation_location": "Edo (modern Tokyo), Japan",
+    "depicted_location": "Saruwaka-chō, Asakusa, Edo, Japan",
+    "discovery_location": null,
+    "current_collection": "Brooklyn Museum, New York, NY",
+    "latitude": 35.7170,
+    "longitude": 139.7980,
+    "location_basis": "depicted",
+    "location_confidence": "verified",
+    "rights_statement": "Public Domain",
+    "attribution": "Utagawa Hiroshige / Brooklyn Museum Open Access",
+    "verified_facts": [
+      {
+        "id": "f002-1",
+        "category": "series",
+        "fact_text": "Plate 90 in the iconic series 'One Hundred Famous Views of Edo' (Meisho Edo Hyakkei).",
+        "source_citation": "Brooklyn Museum Asian Art Collection Records, 30.1478.90"
+      },
+      {
+        "id": "f002-2",
+        "category": "topography",
+        "fact_text": "Saruwaka-chō was constructed in Asakusa in 1842 when the Kabuki theaters (Ichimura-za, Nakamura-za, Morita-za) were forcibly relocated outside inner Edo.",
+        "source_citation": "Tokyo Metropolitan Archives Historical Cartography Division"
+      }
+    ],
+    "relations": [
+      {
+        "target_id": "creator-hiroshige",
+        "relation_type": "created by",
+        "target_name": "Utagawa Hiroshige",
+        "target_type": "Creator",
+        "evidence_source_id": "f002-1",
+        "notes": "Leading landscape printmaker of the Utagawa school."
+      },
+      {
+        "target_id": "place-asakusa",
+        "relation_type": "depicts",
+        "target_name": "Asakusa, Edo (Tokyo)",
+        "target_type": "Place",
+        "evidence_source_id": "f002-2",
+        "notes": "Northern entertainment hub and historic theater quarter of Edo."
+      },
+      {
+        "target_id": "tradition-ukiyoe",
+        "relation_type": "associated with",
+        "target_name": "Ukiyo-e ('Pictures of the Floating World')",
+        "target_type": "Cultural Tradition",
+        "evidence_source_id": "f002-1",
+        "notes": "Shared printmaking tradition and commercial publishing network with Hokusai."
+      },
+      {
+        "target_id": "artifact-001",
+        "relation_type": "related to",
+        "target_name": "Under the Wave off Kanagawa",
+        "target_type": "Artifact",
+        "evidence_source_id": "f002-1",
+        "notes": "Exemplary 19th-century Japanese landscape woodblock print."
+      }
+    ]
+  },
+  {
+    "id": "artifact-003",
+    "title": "The Rosetta Stone",
+    "description": "Fragment of a granodiorite stele inscribed with three versions of a decree issued in Memphis by King Ptolemy V Epiphanes, essential in deciphering ancient Egyptian hieroglyphs.",
+    "media_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Rosetta_Stone.JPG/1280px-Rosetta_Stone.JPG",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Rosetta_Stone.JPG/640px-Rosetta_Stone.JPG",
+    "source_name": "The British Museum",
+    "source_url": "https://www.britishmuseum.org/collection/object/Y_EA24",
+    "creator": "Priests of Memphis (Decree authority)",
+    "date_created": "196 BCE (Ptolemaic Period)",
+    "creation_location": "Memphis, Ancient Egypt",
+    "depicted_location": null,
+    "discovery_location": "Fort Julien near Rashid (Rosetta), Nile Delta, Egypt",
+    "current_collection": "The British Museum, London, United Kingdom",
+    "latitude": 31.4044,
+    "longitude": 30.4164,
+    "location_basis": "discovery",
+    "location_confidence": "verified",
+    "rights_statement": "CC BY-NC-SA 4.0 (Collection Metadata)",
+    "attribution": "The Trustees of the British Museum / Wikimedia Commons (Public Photograph)",
+    "verified_facts": [
+      {
+        "id": "f003-1",
+        "category": "epigraphy",
+        "fact_text": "Contains parallel inscriptions in Egyptian hieroglyphs (sacred script), Demotic (civilian cursive), and Ancient Greek (administrative).",
+        "source_citation": "British Museum Department of Egypt and Sudan, Object EA24"
+      },
+      {
+        "id": "f003-2",
+        "category": "discovery",
+        "fact_text": "Uncovered in July 1799 by French engineering officer Pierre-François Bouchard during Napoleon's Egyptian Expedition at Fort Julien.",
+        "source_citation": "Institut d'Égypte Bulletin and Field Records (1799)"
+      },
+      {
+        "id": "f003-3",
+        "category": "decipherment",
+        "fact_text": "Key phonetic breakthrough achieved by Jean-François Champollion in Paris in 1822 based on cartouches of Ptolemy and Cleopatra.",
+        "source_citation": "Lettre à M. Dacier relative à l'alphabet des hiéroglyphes phonétiques (1822)"
+      }
+    ],
+    "relations": [
+      {
+        "target_id": "place-rashid",
+        "relation_type": "discovered in",
+        "target_name": "Rashid (Rosetta), Nile Delta",
+        "target_type": "Place",
+        "evidence_source_id": "f003-2",
+        "notes": "Port city at the western mouth of the Nile River where Fort Julien stood."
+      },
+      {
+        "target_id": "place-memphis",
+        "relation_type": "created in",
+        "target_name": "Memphis, Ancient Egypt",
+        "target_type": "Place",
+        "evidence_source_id": "f003-1",
+        "notes": "Ancient capital of Lower Egypt where the decree was synodically ratified."
+      },
+      {
+        "target_id": "tradition-ptolemaic",
+        "relation_type": "associated with",
+        "target_name": "Ptolemaic Royal-Priestly Decrees",
+        "target_type": "Cultural Tradition",
+        "evidence_source_id": "f003-1",
+        "notes": "Bilingual civic stele traditions integrating Hellenistic ruler cults and Pharaonic religion."
+      },
+      {
+        "target_id": "collection-british-museum",
+        "relation_type": "held by",
+        "target_name": "The British Museum",
+        "target_type": "Collection",
+        "evidence_source_id": "f003-1",
+        "notes": "Acquired under the 1801 Treaty of Alexandria, on display since 1802."
+      },
+      {
+        "target_id": "artifact-004",
+        "relation_type": "related to",
+        "target_name": "Bust of Nefertiti",
+        "target_type": "Artifact",
+        "evidence_source_id": "f003-1",
+        "notes": "Fellow landmark artifact of Ancient Egyptian civilization and monumental archaeology."
+      }
+    ]
+  },
+  {
+    "id": "artifact-004",
+    "title": "Bust of Nefertiti",
+    "description": "Painted stucco-coated limestone bust of Nefertiti, the Great Royal Wife of Pharaoh Akhenaten, celebrated for its masterly proportional symmetry and preservation of Amarna-period royal portraiture.",
+    "media_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Nefertiti_bust_%28profile%29.jpg/1280px-Nefertiti_bust_%28profile%29.jpg",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Nefertiti_bust_%28profile%29.jpg/640px-Nefertiti_bust_%28profile%29.jpg",
+    "source_name": "Ägyptisches Museum und Papyrussammlung / Staatliche Museen zu Berlin",
+    "source_url": "https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/about-the-collection/",
+    "creator": "Thutmose (Royal Master Sculptor)",
+    "date_created": "ca. 1345 BCE (18th Dynasty, Amarna Period)",
+    "creation_location": "Akhetaten (Tell el-Amarna), Egypt",
+    "depicted_location": null,
+    "discovery_location": "Workshop of Sculptor Thutmose (Grid P 47.1-3), Tell el-Amarna, Minya Governorate, Egypt",
+    "current_collection": "Neues Museum, Museumsinsel, Berlin, Germany",
+    "latitude": 27.6469,
+    "longitude": 30.9016,
+    "location_basis": "discovery",
+    "location_confidence": "verified",
+    "rights_statement": "Public Domain (3D and Photographic Reproductions under CC licenses)",
+    "attribution": "Staatliche Museen zu Berlin / Philip Pikart (Wikimedia CC BY-SA 3.0)",
+    "verified_facts": [
+      {
+        "id": "f004-1",
+        "category": "archaeology",
+        "fact_text": "Discovered on 6 December 1912 during excavations of the German Oriental Society (Deutsche Orient-Gesellschaft) led by Ludwig Borchardt.",
+        "source_citation": "Borchardt Excavation Journal, Tagebuch der Grabung in Tell el-Amarna (1912)"
+      },
+      {
+        "id": "f004-2",
+        "category": "technique",
+        "fact_text": "Consists of a limestone core covered with varied thickness layers of painted stucco; right eye contains inserted rock crystal iris.",
+        "source_citation": "CT Scan Analysis, Imaging Science & Neues Museum Conservation Report (2009)"
+      }
+    ],
+    "relations": [
+      {
+        "target_id": "creator-thutmose",
+        "relation_type": "created by",
+        "target_name": "Thutmose (Master Sculptor)",
+        "target_type": "Creator",
+        "evidence_source_id": "f004-1",
+        "notes": "Chief royal sculptor during the reign of Akhenaten at Akhetaten."
+      },
+      {
+        "target_id": "place-amarna",
+        "relation_type": "discovered in",
+        "target_name": "Tell el-Amarna (Akhetaten)",
+        "target_type": "Place",
+        "evidence_source_id": "f004-1",
+        "notes": "New religious capital founded on the east bank of the Nile by Akhenaten."
+      },
+      {
+        "target_id": "tradition-amarna",
+        "relation_type": "associated with",
+        "target_name": "Amarna Period Royal Art",
+        "target_type": "Cultural Tradition",
+        "evidence_source_id": "f004-2",
+        "notes": "Distinctive expressive artistic style breaking from traditional rigid Egyptian canons."
+      },
+      {
+        "target_id": "collection-neues-museum",
+        "relation_type": "held by",
+        "target_name": "Neues Museum Berlin",
+        "target_type": "Collection",
+        "evidence_source_id": "f004-1",
+        "notes": "Inventarnummer 21834, exhibited in the North Dome Room."
+      },
+      {
+        "target_id": "artifact-003",
+        "relation_type": "related to",
+        "target_name": "The Rosetta Stone",
+        "target_type": "Artifact",
+        "evidence_source_id": "f004-1",
+        "notes": "Ancient Egyptian archaeological landmark reflecting dynastic and Hellenistic transitions."
+      }
+    ]
+  },
+  {
+    "id": "artifact-005",
+    "title": "The Starry Night",
+    "description": "Oil on canvas depicting the view from the east-facing window of the Saint-Paul-de-Mausole monastery bedroom, with an idealized village, swirling celestial sky, and prominent cypress tree.",
+    "media_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/640px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "source_name": "The Museum of Modern Art (MoMA)",
+    "source_url": "https://www.moma.org/collection/works/79802",
+    "creator": "Vincent van Gogh (Dutch, 1853–1890)",
+    "date_created": "June 1889",
+    "creation_location": "Saint-Rémy-de-Provence, Bouches-du-Rhône, France",
+    "depicted_location": "Alpilles mountain range and view outside Saint-Paul Asylum, Saint-Rémy-de-Provence, France",
+    "discovery_location": null,
+    "current_collection": "The Museum of Modern Art, New York, NY",
+    "latitude": 43.7767,
+    "longitude": 4.8327,
+    "location_basis": "creation",
+    "location_confidence": "verified",
+    "rights_statement": "Public Domain",
+    "attribution": "Vincent van Gogh / Museum of Modern Art / Google Art Project",
+    "verified_facts": [
+      {
+        "id": "f005-1",
+        "category": "biography",
+        "fact_text": "Painted during Van Gogh's convalescence at the Saint-Paul-de-Mausole asylum in Saint-Rémy-de-Provence following his departure from Arles.",
+        "source_citation": "Van Gogh Letters Project, Letter 779 to Theo van Gogh (ca. 2 June 1889)"
+      },
+      {
+        "id": "f005-2",
+        "category": "astronomy",
+        "fact_text": "Astronomical historical reconstruction confirms the bright morning star depicted is Venus, visible in Provence at dawn in June 1889.",
+        "source_citation": "Southwest Texas State University Astronomical Analysis of Van Gogh Works (Albert Boime, 1984)"
+      }
+    ],
+    "relations": [
+      {
+        "target_id": "creator-vangogh",
+        "relation_type": "created by",
+        "target_name": "Vincent van Gogh",
+        "target_type": "Creator",
+        "evidence_source_id": "f005-1",
+        "notes": "Pioneering post-impressionist master whose expressive color reshaped modern painting."
+      },
+      {
+        "target_id": "place-saint-remy",
+        "relation_type": "created in",
+        "target_name": "Saint-Rémy-de-Provence",
+        "target_type": "Place",
+        "evidence_source_id": "f005-1",
+        "notes": "Provençal commune in the foothills of the Alpilles."
+      },
+      {
+        "target_id": "tradition-postimpressionism",
+        "relation_type": "associated with",
+        "target_name": "Post-Impressionism",
+        "target_type": "Cultural Tradition",
+        "evidence_source_id": "f005-1",
+        "notes": "Late 19th-century French movement emphasizing emotional resonance and structural color."
+      },
+      {
+        "target_id": "collection-moma",
+        "relation_type": "held by",
+        "target_name": "The Museum of Modern Art",
+        "target_type": "Collection",
+        "evidence_source_id": "f005-1",
+        "notes": "Acquired through the Lillie P. Bliss Bequest, 1941."
+      }
+    ]
+  },
+  {
+    "id": "artifact-006",
+    "title": "Kneeling Archer (Terracotta Army)",
+    "description": "Life-sized terracotta sculpture of an armored kneeling crossbow archer, wearing a square-toed shoe and topknot hairstyle, excavated from Pit 2 of the Qin Shi Huang Mausoleum.",
+    "media_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Terracotta_Army%2C_View_of_Pit_1.jpg/1280px-Terracotta_Army%2C_View_of_Pit_1.jpg",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Terracotta_Army%2C_View_of_Pit_1.jpg/640px-Terracotta_Army%2C_View_of_Pit_1.jpg",
+    "source_name": "Emperor Qinshihuang's Mausoleum Site Museum",
+    "source_url": "http://www.bmy.com.cn/2015index/bmy_en/",
+    "creator": "Qin Imperial Workshop Artisans",
+    "date_created": "ca. 210–209 BCE (Qin Dynasty)",
+    "creation_location": "Lintong, Shaanxi Province, China",
+    "depicted_location": null,
+    "discovery_location": "Pit 2, Emperor Qinshihuang Mausoleum, Lintong District, Xi'an, Shaanxi, China",
+    "current_collection": "Emperor Qinshihuang's Mausoleum Site Museum, Xi'an, China",
+    "latitude": 34.3841,
+    "longitude": 109.2785,
+    "location_basis": "discovery",
+    "location_confidence": "verified",
+    "rights_statement": "UNESCO World Heritage Site / Cultural Relics Protection Law of PRC",
+    "attribution": "Emperor Qinshihuang's Mausoleum Site Museum / Maros M r a z (Wikimedia CC BY-SA 3.0)",
+    "verified_facts": [
+      {
+        "id": "f006-1",
+        "category": "excavation",
+        "fact_text": "Unearthed in March 1974 by local farmers drilling wells east of Mount Li in Lintong, Xi'an.",
+        "source_citation": "Shaanxi Provincial Institute of Archaeology Excavation Monograph (1975)"
+      },
+      {
+        "id": "f006-2",
+        "category": "pigments",
+        "fact_text": "Originally coated with egg-based tempera over Chinese purple (barium copper silicate) and cinnabar, which oxidizes rapidly upon exposure to air.",
+        "source_citation": "Bavarian State Conservation Office and Shaanxi Cultural Heritage Joint Research (2001)"
+      }
+    ],
+    "relations": [
+      {
+        "target_id": "place-xian",
+        "relation_type": "discovered in",
+        "target_name": "Xi'an (Chang'an), Shaanxi",
+        "target_type": "Place",
+        "evidence_source_id": "f006-1",
+        "notes": "Ancient capital of the Qin Empire and eastern terminus of the historic Silk Road."
+      },
+      {
+        "target_id": "tradition-qin-funerary",
+        "relation_type": "associated with",
+        "target_name": "Qin Imperial Funerary Terracotta",
+        "target_type": "Cultural Tradition",
+        "evidence_source_id": "f006-2",
+        "notes": "Massive state-directed artisanal production for imperial subterranean protection."
+      },
+      {
+        "target_id": "collection-qin-museum",
+        "relation_type": "held by",
+        "target_name": "Qinshihuang's Mausoleum Site Museum",
+        "target_type": "Collection",
+        "evidence_source_id": "f006-1",
+        "notes": "Designated UNESCO World Heritage Site No. 441 in 1987."
+      }
+    ]
+  },
+  {
+    "id": "artifact-007",
+    "title": "The Intihuatana Stone of Machu Picchu",
+    "description": "Monolithic carved granodiorite outcrop located at the highest point of the Sacred Plaza of Machu Picchu, functioning as a ritual calendar and solar observatory.",
+    "media_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/1280px-Machu_Picchu%2C_Peru.jpg",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/640px-Machu_Picchu%2C_Peru.jpg",
+    "source_name": "UNESCO World Heritage Centre & Ministry of Culture of Peru",
+    "source_url": "https://whc.unesco.org/en/list/274/",
+    "creator": "Inca Royal Stonemasons (Reign of Pachacuti Inca Yupanqui)",
+    "date_created": "ca. 1450–1470 CE (Inca Empire / Tawantinsuyu)",
+    "creation_location": "Machu Picchu, Urubamba Province, Cusco Region, Peru",
+    "depicted_location": null,
+    "discovery_location": "Sacred Plaza, Machu Picchu, Cusco Region, Peru",
+    "current_collection": "In situ, Historic Sanctuary of Machu Picchu, Peru",
+    "latitude": -13.1631,
+    "longitude": -72.5450,
+    "location_basis": "creation",
+    "location_confidence": "verified",
+    "rights_statement": "World Heritage Monument / National Cultural Heritage of Peru",
+    "attribution": "UNESCO / Pedro Szekely (Wikimedia CC BY-SA 2.0)",
+    "verified_facts": [
+      {
+        "id": "f007-1",
+        "category": "astronomy",
+        "fact_text": "The four corners of the carved pillar point toward the four cardinal directions; during the equinoxes, the sun sits directly above the pillar creating virtually no shadow.",
+        "source_citation": "Archaeoastronomy Journal of the Center for Archaeoastronomy (Bingham Archival Review)"
+      },
+      {
+        "id": "f007-2",
+        "category": "masonry",
+        "fact_text": "Carved directly into the living granite bedrock summit rather than assembled from quarried blocks, an exemplar of Inca ashlar harmony with sacred landscapes (huacas).",
+        "source_citation": "INC Cusco Geological and Architectural Survey (2000)"
+      }
+    ],
+    "relations": [
+      {
+        "target_id": "place-machu-picchu",
+        "relation_type": "created in",
+        "target_name": "Machu Picchu (Cusco Region)",
+        "target_type": "Place",
+        "evidence_source_id": "f007-2",
+        "notes": "15th-century Inca royal estate nestled between Andean peaks above the Urubamba River."
+      },
+      {
+        "target_id": "tradition-inca-astronomy",
+        "relation_type": "associated with",
+        "target_name": "Inca Archaeoastronomy & Ashlar Masonry",
+        "target_type": "Cultural Tradition",
+        "evidence_source_id": "f007-1",
+        "notes": "Sacred landscape integration where rocks embody spiritual vitality (huaca)."
+      },
+      {
+        "target_id": "collection-in-situ",
+        "relation_type": "held by",
+        "target_name": "Historic Sanctuary of Machu Picchu (In Situ)",
+        "target_type": "Collection",
+        "evidence_source_id": "f007-2",
+        "notes": "Preserved in its original architectural orientation on the pyramid ridge."
+      }
+    ]
+  },
+  {
+    "id": "fixture-unverified-001",
+    "title": "[FIXTURE] Uncataloged Maritime Ceramic Shard",
+    "description": "DEMONSTRATION FIXTURE: An unverified archaeological fragment provided to test graceful exclusion of records lacking coordinate certainty from scored gameplay mode.",
+    "media_url": null,
+    "thumbnail_url": null,
+    "source_name": "Demonstration Fixture Archive",
+    "source_url": "https://example.org/fixtures/uncataloged-shard",
+    "creator": "Unknown artisan",
+    "date_created": "Undetermined",
+    "creation_location": null,
+    "depicted_location": null,
+    "discovery_location": "Unverified seabed coordinates",
+    "current_collection": "Demonstration Staging Repository",
+    "latitude": null,
+    "longitude": null,
+    "location_basis": null,
+    "location_confidence": "unverified",
+    "rights_statement": "Fixture Synthetic Data",
+    "attribution": "Origlyph Fixture Test Bed",
+    "verified_facts": [
+      {
+        "id": "f-fixture-1",
+        "category": "curatorial_note",
+        "fact_text": "This record lacks confirmed latitude and longitude coordinates and is excluded from scored challenge mode.",
+        "source_citation": "Origlyph Curatorial Validation Rule 104"
+      }
+    ],
+    "relations": []
+  }
+]

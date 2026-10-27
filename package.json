@@ -1,0 +1,23 @@
+{
+  "name": "origlyph",
+  "version": "2.0.0",
+  "description": "Decode the places behind culture — AI-powered cultural heritage discovery platform",
+  "private": true,
+  "scripts": {
+    "dev:backend": "uvicorn app.main:app --reload --port 8000",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "test:backend": "python -m pytest backend",
+    "start": "uvicorn app.main:app --app-dir backend --port 8000"
+  },
+  "keywords": [
+    "cultural-heritage",
+    "digital-humanities",
+    "provenance-graph",
+    "cartography",
+    "geoguessr",
+    "ai-grounding"
+  ],
+  "author": "Origlyph Engineering Team",
+  "license": "Apache-2.0"
+}

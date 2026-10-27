@@ -1,0 +1,920 @@
+[
+ {
+  "id": 1,
+  "repo": "facebook/react",
+  "owner": "facebook",
+  "name": "react",
+  "url": "https://github.com/facebook/react",
+  "tier": "stack",
+  "role": "Renders every screen of the interface"
+ },
+ {
+  "id": 2,
+  "repo": "vitejs/vite",
+  "owner": "vitejs",
+  "name": "vite",
+  "url": "https://github.com/vitejs/vite",
+  "tier": "stack",
+  "role": "Dev server and production bundler for the frontend"
+ },
+ {
+  "id": 3,
+  "repo": "microsoft/TypeScript",
+  "owner": "microsoft",
+  "name": "TypeScript",
+  "url": "https://github.com/microsoft/TypeScript",
+  "tier": "stack",
+  "role": "Types the API contract shared by UI and backend models"
+ },
+ {
+  "id": 4,
+  "repo": "Leaflet/Leaflet",
+  "owner": "Leaflet",
+  "name": "Leaflet",
+  "url": "https://github.com/Leaflet/Leaflet",
+  "tier": "stack",
+  "role": "The interactive guess-map where players drop their pin"
+ },
+ {
+  "id": 5,
+  "repo": "lucide-icons/lucide",
+  "owner": "lucide-icons",
+  "name": "lucide",
+  "url": "https://github.com/lucide-icons/lucide",
+  "tier": "stack",
+  "role": "Icon set used across navigation, hints and reveal cards"
+ },
+ {
+  "id": 6,
+  "repo": "vitejs/vite-plugin-react",
+  "owner": "vitejs",
+  "name": "vite-plugin-react",
+  "url": "https://github.com/vitejs/vite-plugin-react",
+  "tier": "stack",
+  "role": "React transform and fast refresh inside Vite"
+ },
+ {
+  "id": 7,
+  "repo": "DefinitelyTyped/DefinitelyTyped",
+  "owner": "DefinitelyTyped",
+  "name": "DefinitelyTyped",
+  "url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+  "tier": "stack",
+  "role": "Type definitions for React and Leaflet (@types packages)"
+ },
+ {
+  "id": 8,
+  "repo": "fastapi/fastapi",
+  "owner": "fastapi",
+  "name": "fastapi",
+  "url": "https://github.com/fastapi/fastapi",
+  "tier": "stack",
+  "role": "The backend API: challenges, hints, guesses, provenance"
+ },
+ {
+  "id": 9,
+  "repo": "pydantic/pydantic",
+  "owner": "pydantic",
+  "name": "pydantic",
+  "url": "https://github.com/pydantic/pydantic",
+  "tier": "stack",
+  "role": "Validates artifact records and every API payload"
+ },
+ {
+  "id": 10,
+  "repo": "encode/uvicorn",
+  "owner": "encode",
+  "name": "uvicorn",
+  "url": "https://github.com/encode/uvicorn",
+  "tier": "stack",
+  "role": "ASGI server that runs the backend"
+ },
+ {
+  "id": 11,
+  "repo": "encode/starlette",
+  "owner": "encode",
+  "name": "starlette",
+  "url": "https://github.com/encode/starlette",
+  "tier": "stack",
+  "role": "Routing, CORS, gzip and static mounting under FastAPI"
+ },
+ {
+  "id": 12,
+  "repo": "CartoDB/basemap-styles",
+  "owner": "CartoDB",
+  "name": "basemap-styles",
+  "url": "https://github.com/CartoDB/basemap-styles",
+  "tier": "stack",
+  "role": "Voyager basemap styles for the street tiles under the guess map"
+ },
+ {
+  "id": 13,
+  "repo": "pytest-dev/pytest",
+  "owner": "pytest-dev",
+  "name": "pytest",
+  "url": "https://github.com/pytest-dev/pytest",
+  "tier": "stack",
+  "role": "Runs the 31 backend unit and integration tests"
+ },
+ {
+  "id": 14,
+  "repo": "encode/httpx",
+  "owner": "encode",
+  "name": "httpx",
+  "url": "https://github.com/encode/httpx",
+  "tier": "stack",
+  "role": "HTTP test client for the API tests"
+ },
+ {
+  "id": 15,
+  "repo": "undercasetype/Fraunces",
+  "owner": "undercasetype",
+  "name": "Fraunces",
+  "url": "https://github.com/undercasetype/Fraunces",
+  "tier": "stack",
+  "role": "Display typeface for titles, scores and plate captions"
+ },
+ {
+  "id": 16,
+  "repo": "tokotype/PlusJakartaSans",
+  "owner": "tokotype",
+  "name": "PlusJakartaSans",
+  "url": "https://github.com/tokotype/PlusJakartaSans",
+  "tier": "stack",
+  "role": "Body typeface for interface text"
+ },
+ {
+  "id": 17,
+  "repo": "JetBrains/JetBrainsMono",
+  "owner": "JetBrains",
+  "name": "JetBrainsMono",
+  "url": "https://github.com/JetBrains/JetBrainsMono",
+  "tier": "stack",
+  "role": "Monospace for coordinates, scores and citations"
+ },
+ {
+  "id": 18,
+  "repo": "openstreetmap/openstreetmap-website",
+  "owner": "openstreetmap",
+  "name": "openstreetmap-website",
+  "url": "https://github.com/openstreetmap/openstreetmap-website",
+  "tier": "stack",
+  "role": "OpenStreetMap data behind the street tiles under the guess map"
+ },
+ {
+  "id": 19,
+  "repo": "NDISCOVER/Cinzel",
+  "owner": "NDISCOVER",
+  "name": "Cinzel",
+  "url": "https://github.com/NDISCOVER/Cinzel",
+  "tier": "stack",
+  "role": "Inscriptional capitals for labels and small headings"
+ },
+ {
+  "id": 20,
+  "repo": "nvkelso/natural-earth-vector",
+  "owner": "nvkelso",
+  "name": "natural-earth-vector",
+  "url": "https://github.com/nvkelso/natural-earth-vector",
+  "tier": "data",
+  "role": "Public-domain Natural Earth geometry that world-atlas is built from"
+ },
+ {
+  "id": 21,
+  "repo": "metmuseum/openaccess",
+  "owner": "metmuseum",
+  "name": "openaccess",
+  "url": "https://github.com/metmuseum/openaccess",
+  "tier": "data",
+  "role": "Open Access records from The Met, the source of several seed artifacts"
+ },
+ {
+  "id": 22,
+  "repo": "MuseumofModernArt/collection",
+  "owner": "MuseumofModernArt",
+  "name": "collection",
+  "url": "https://github.com/MuseumofModernArt/collection",
+  "tier": "data",
+  "role": "MoMA's collection dataset; matches the manifest's modern-art ingestion target"
+ },
+ {
+  "id": 23,
+  "repo": "tategallery/collection",
+  "owner": "tategallery",
+  "name": "collection",
+  "url": "https://github.com/tategallery/collection",
+  "tier": "data",
+  "role": "Tate's open collection metadata, a candidate ingestion source"
+ },
+ {
+  "id": 24,
+  "repo": "cooperhewitt/collection",
+  "owner": "cooperhewitt",
+  "name": "collection",
+  "url": "https://github.com/cooperhewitt/collection",
+  "tier": "data",
+  "role": "Cooper Hewitt design collection metadata"
+ },
+ {
+  "id": 25,
+  "repo": "nationalgalleryofart/opendata",
+  "owner": "nationalgalleryofart",
+  "name": "opendata",
+  "url": "https://github.com/nationalgalleryofart/opendata",
+  "tier": "data",
+  "role": "National Gallery of Art open data with creator and place fields"
+ },
+ {
+  "id": 26,
+  "repo": "art-institute-of-chicago/api-data",
+  "owner": "art-institute-of-chicago",
+  "name": "api-data",
+  "url": "https://github.com/art-institute-of-chicago/api-data",
+  "tier": "data",
+  "role": "Art Institute of Chicago data dumps with place of origin"
+ },
+ {
+  "id": 27,
+  "repo": "ClevelandMuseumArt/openaccess",
+  "owner": "ClevelandMuseumArt",
+  "name": "openaccess",
+  "url": "https://github.com/ClevelandMuseumArt/openaccess",
+  "tier": "data",
+  "role": "Cleveland Museum of Art open-access records with creation places"
+ },
+ {
+  "id": 28,
+  "repo": "Smithsonian/OpenAccess",
+  "owner": "Smithsonian",
+  "name": "OpenAccess",
+  "url": "https://github.com/Smithsonian/OpenAccess",
+  "tier": "data",
+  "role": "Smithsonian Open Access metadata and media"
+ },
+ {
+  "id": 29,
+  "repo": "harvardartmuseums/api-docs",
+  "owner": "harvardartmuseums",
+  "name": "api-docs",
+  "url": "https://github.com/harvardartmuseums/api-docs",
+  "tier": "data",
+  "role": "Harvard Art Museums API with provenance and findspot fields"
+ },
+ {
+  "id": 30,
+  "repo": "internetarchive/internetarchive",
+  "owner": "internetarchive",
+  "name": "internetarchive",
+  "url": "https://github.com/internetarchive/internetarchive",
+  "tier": "data",
+  "role": "Python client for the Internet Archive ingestion pipeline in ARCHITECTURE.md"
+ },
+ {
+  "id": 31,
+  "repo": "pelagios/recogito2",
+  "owner": "pelagios",
+  "name": "recogito2",
+  "url": "https://github.com/pelagios/recogito2",
+  "tier": "data",
+  "role": "Place annotation tool; the same place-linking idea as our location basis"
+ },
+ {
+  "id": 32,
+  "repo": "osm-search/Nominatim",
+  "owner": "osm-search",
+  "name": "Nominatim",
+  "url": "https://github.com/osm-search/Nominatim",
+  "tier": "data",
+  "role": "Open geocoder for turning findspot text into coordinates"
+ },
+ {
+  "id": 33,
+  "repo": "pelias/pelias",
+  "owner": "pelias",
+  "name": "pelias",
+  "url": "https://github.com/pelias/pelias",
+  "tier": "data",
+  "role": "Open geocoding engine; alternative to Nominatim for historical places"
+ },
+ {
+  "id": 34,
+  "repo": "geopy/geopy",
+  "owner": "geopy",
+  "name": "geopy",
+  "url": "https://github.com/geopy/geopy",
+  "tier": "data",
+  "role": "Geodesic distance and geocoding; cross-check for our Haversine scoring"
+ },
+ {
+  "id": 35,
+  "repo": "linked-art/linked.art",
+  "owner": "linked-art",
+  "name": "linked.art",
+  "url": "https://github.com/linked-art/linked.art",
+  "tier": "data",
+  "role": "Linked Art model for describing cultural objects and their places"
+ },
+ {
+  "id": 36,
+  "repo": "schemaorg/schemaorg",
+  "owner": "schemaorg",
+  "name": "schemaorg",
+  "url": "https://github.com/schemaorg/schemaorg",
+  "tier": "data",
+  "role": "Schema.org vocabulary for exporting artifact pages as structured data"
+ },
+ {
+  "id": 37,
+  "repo": "topojson/topojson",
+  "owner": "topojson",
+  "name": "topojson",
+  "url": "https://github.com/topojson/topojson",
+  "tier": "bridge",
+  "role": "Decodes world geometry; the route to a fully offline vector basemap"
+ },
+ {
+  "id": 38,
+  "repo": "topojson/world-atlas",
+  "owner": "topojson",
+  "name": "world-atlas",
+  "url": "https://github.com/topojson/world-atlas",
+  "tier": "bridge",
+  "role": "Ready-made country outlines for that offline basemap"
+ },
+ {
+  "id": 39,
+  "repo": "fontsource/fontsource",
+  "owner": "fontsource",
+  "name": "fontsource",
+  "url": "https://github.com/fontsource/fontsource",
+  "tier": "bridge",
+  "role": "Self-hosts the typefaces so the UI renders identically offline"
+ },
+ {
+  "id": 40,
+  "repo": "openseadragon/openseadragon",
+  "owner": "openseadragon",
+  "name": "openseadragon",
+  "url": "https://github.com/openseadragon/openseadragon",
+  "tier": "bridge",
+  "role": "Deep-zoom viewer; natural upgrade for the Inspect modal"
+ },
+ {
+  "id": 41,
+  "repo": "ProjectMirador/mirador",
+  "owner": "ProjectMirador",
+  "name": "mirador",
+  "url": "https://github.com/ProjectMirador/mirador",
+  "tier": "bridge",
+  "role": "IIIF viewer for museum-hosted high-resolution images"
+ },
+ {
+  "id": 42,
+  "repo": "UniversalViewer/universalviewer",
+  "owner": "UniversalViewer",
+  "name": "universalviewer",
+  "url": "https://github.com/UniversalViewer/universalviewer",
+  "tier": "bridge",
+  "role": "IIIF viewer for multi-image objects"
+ },
+ {
+  "id": 43,
+  "repo": "IIIF-Commons/manifesto",
+  "owner": "IIIF-Commons",
+  "name": "manifesto",
+  "url": "https://github.com/IIIF-Commons/manifesto",
+  "tier": "bridge",
+  "role": "Parses IIIF manifests that museums publish for their objects"
+ },
+ {
+  "id": 44,
+  "repo": "iiif-prezi/iiif-prezi3",
+  "owner": "iiif-prezi",
+  "name": "iiif-prezi3",
+  "url": "https://github.com/iiif-prezi/iiif-prezi3",
+  "tier": "bridge",
+  "role": "Builds IIIF manifests from artifact records"
+ },
+ {
+  "id": 45,
+  "repo": "cantaloupe-project/cantaloupe",
+  "owner": "cantaloupe-project",
+  "name": "cantaloupe",
+  "url": "https://github.com/cantaloupe-project/cantaloupe",
+  "tier": "bridge",
+  "role": "IIIF image server for self-hosted artifact images"
+ },
+ {
+  "id": 46,
+  "repo": "digitalbazaar/jsonld.js",
+  "owner": "digitalbazaar",
+  "name": "jsonld.js",
+  "url": "https://github.com/digitalbazaar/jsonld.js",
+  "tier": "bridge",
+  "role": "JSON-LD processing for linked-data export of provenance edges"
+ },
+ {
+  "id": 47,
+  "repo": "RDFLib/rdflib",
+  "owner": "RDFLib",
+  "name": "rdflib",
+  "url": "https://github.com/RDFLib/rdflib",
+  "tier": "bridge",
+  "role": "Serialises the provenance graph as RDF"
+ },
+ {
+  "id": 48,
+  "repo": "networkx/networkx",
+  "owner": "networkx",
+  "name": "networkx",
+  "url": "https://github.com/networkx/networkx",
+  "tier": "bridge",
+  "role": "Graph analysis for the global provenance network"
+ },
+ {
+  "id": 49,
+  "repo": "cytoscape/cytoscape.js",
+  "owner": "cytoscape",
+  "name": "cytoscape.js",
+  "url": "https://github.com/cytoscape/cytoscape.js",
+  "tier": "bridge",
+  "role": "Graph library; reference for richer provenance exploration"
+ },
+ {
+  "id": 50,
+  "repo": "d3/d3",
+  "owner": "d3",
+  "name": "d3",
+  "url": "https://github.com/d3/d3",
+  "tier": "bridge",
+  "role": "Reference for force layouts and scales in the graph view"
+ },
+ {
+  "id": 51,
+  "repo": "d3/d3-geo",
+  "owner": "d3",
+  "name": "d3-geo",
+  "url": "https://github.com/d3/d3-geo",
+  "tier": "bridge",
+  "role": "Map projections; informs the atlas basemap"
+ },
+ {
+  "id": 52,
+  "repo": "d3/d3-force",
+  "owner": "d3",
+  "name": "d3-force",
+  "url": "https://github.com/d3/d3-force",
+  "tier": "bridge",
+  "role": "Force simulation behind our node layout approach"
+ },
+ {
+  "id": 53,
+  "repo": "Turfjs/turf",
+  "owner": "Turfjs",
+  "name": "turf",
+  "url": "https://github.com/Turfjs/turf",
+  "tier": "bridge",
+  "role": "Geodesic and spatial analysis in the browser"
+ },
+ {
+  "id": 54,
+  "repo": "maplibre/maplibre-gl-js",
+  "owner": "maplibre",
+  "name": "maplibre-gl-js",
+  "url": "https://github.com/maplibre/maplibre-gl-js",
+  "tier": "bridge",
+  "role": "Vector-tile map engine for a future globe view"
+ },
+ {
+  "id": 55,
+  "repo": "openlayers/openlayers",
+  "owner": "openlayers",
+  "name": "openlayers",
+  "url": "https://github.com/openlayers/openlayers",
+  "tier": "bridge",
+  "role": "Alternative web map library with deep projection support"
+ },
+ {
+  "id": 56,
+  "repo": "OSGeo/PROJ",
+  "owner": "OSGeo",
+  "name": "PROJ",
+  "url": "https://github.com/OSGeo/PROJ",
+  "tier": "bridge",
+  "role": "Coordinate transformation library behind most geodesy tools"
+ },
+ {
+  "id": 57,
+  "repo": "pyproj4/pyproj",
+  "owner": "pyproj4",
+  "name": "pyproj",
+  "url": "https://github.com/pyproj4/pyproj",
+  "tier": "bridge",
+  "role": "Python geodesic calculations to cross-check scoring"
+ },
+ {
+  "id": 58,
+  "repo": "shapely/shapely",
+  "owner": "shapely",
+  "name": "shapely",
+  "url": "https://github.com/shapely/shapely",
+  "tier": "bridge",
+  "role": "Geometry tools for regions and region-based scoring"
+ },
+ {
+  "id": 59,
+  "repo": "geopandas/geopandas",
+  "owner": "geopandas",
+  "name": "geopandas",
+  "url": "https://github.com/geopandas/geopandas",
+  "tier": "bridge",
+  "role": "Analysing seed datasets geographically"
+ },
+ {
+  "id": 60,
+  "repo": "gboeing/osmnx",
+  "owner": "gboeing",
+  "name": "osmnx",
+  "url": "https://github.com/gboeing/osmnx",
+  "tier": "bridge",
+  "role": "OpenStreetMap analysis for contextual place hints"
+ },
+ {
+  "id": 61,
+  "repo": "protomaps/PMTiles",
+  "owner": "protomaps",
+  "name": "PMTiles",
+  "url": "https://github.com/protomaps/PMTiles",
+  "tier": "bridge",
+  "role": "Single-file offline map tiles for fully offline deployment"
+ },
+ {
+  "id": 62,
+  "repo": "felt/tippecanoe",
+  "owner": "felt",
+  "name": "tippecanoe",
+  "url": "https://github.com/felt/tippecanoe",
+  "tier": "bridge",
+  "role": "Builds vector tiles from artifact location layers"
+ },
+ {
+  "id": 63,
+  "repo": "mapbox/supercluster",
+  "owner": "mapbox",
+  "name": "supercluster",
+  "url": "https://github.com/mapbox/supercluster",
+  "tier": "bridge",
+  "role": "Clusters artifact pins on the catalog map"
+ },
+ {
+  "id": 64,
+  "repo": "Leaflet/Leaflet.markercluster",
+  "owner": "Leaflet",
+  "name": "Leaflet.markercluster",
+  "url": "https://github.com/Leaflet/Leaflet.markercluster",
+  "tier": "bridge",
+  "role": "Marker clustering for dense archives"
+ },
+ {
+  "id": 65,
+  "repo": "vasturiano/globe.gl",
+  "owner": "vasturiano",
+  "name": "globe.gl",
+  "url": "https://github.com/vasturiano/globe.gl",
+  "tier": "bridge",
+  "role": "3D globe for a future reveal animation"
+ },
+ {
+  "id": 66,
+  "repo": "vasturiano/force-graph",
+  "owner": "vasturiano",
+  "name": "force-graph",
+  "url": "https://github.com/vasturiano/force-graph",
+  "tier": "bridge",
+  "role": "Canvas force graph for large provenance networks"
+ },
+ {
+  "id": 67,
+  "repo": "google-deepmind/gemma",
+  "owner": "google-deepmind",
+  "name": "gemma",
+  "url": "https://github.com/google-deepmind/gemma",
+  "tier": "bridge",
+  "role": "Gemma, the model behind the optional grounded-hint adapter"
+ },
+ {
+  "id": 68,
+  "repo": "ollama/ollama",
+  "owner": "ollama",
+  "name": "ollama",
+  "url": "https://github.com/ollama/ollama",
+  "tier": "bridge",
+  "role": "Local model runtime for the gemma_ollama provider"
+ },
+ {
+  "id": 69,
+  "repo": "ggml-org/llama.cpp",
+  "owner": "ggml-org",
+  "name": "llama.cpp",
+  "url": "https://github.com/ggml-org/llama.cpp",
+  "tier": "bridge",
+  "role": "Local inference engine for offline grounded hints"
+ },
+ {
+  "id": 70,
+  "repo": "huggingface/transformers",
+  "owner": "huggingface",
+  "name": "transformers",
+  "url": "https://github.com/huggingface/transformers",
+  "tier": "bridge",
+  "role": "Model library for self-hosted hint generation"
+ },
+ {
+  "id": 71,
+  "repo": "explosion/spaCy",
+  "owner": "explosion",
+  "name": "spaCy",
+  "url": "https://github.com/explosion/spaCy",
+  "tier": "bridge",
+  "role": "Place-name extraction when ingesting free-text records"
+ },
+ {
+  "id": 72,
+  "repo": "omeka/omeka-s",
+  "owner": "omeka",
+  "name": "omeka-s",
+  "url": "https://github.com/omeka/omeka-s",
+  "tier": "bridge",
+  "role": "Heritage publishing platform Origlyph records could be exported to"
+ },
+ {
+  "id": 73,
+  "repo": "collectiveaccess/providence",
+  "owner": "collectiveaccess",
+  "name": "providence",
+  "url": "https://github.com/collectiveaccess/providence",
+  "tier": "bridge",
+  "role": "Collections management system with place-of-origin fields"
+ },
+ {
+  "id": 74,
+  "repo": "ArchivesSpace/ArchivesSpace",
+  "owner": "ArchivesSpace",
+  "name": "ArchivesSpace",
+  "url": "https://github.com/ArchivesSpace/ArchivesSpace",
+  "tier": "bridge",
+  "role": "Archives management; a source of provenance records"
+ },
+ {
+  "id": 75,
+  "repo": "artefactual/atom",
+  "owner": "artefactual",
+  "name": "atom",
+  "url": "https://github.com/artefactual/atom",
+  "tier": "bridge",
+  "role": "Access to Memory archival description software"
+ },
+ {
+  "id": 76,
+  "repo": "projectblacklight/blacklight",
+  "owner": "projectblacklight",
+  "name": "blacklight",
+  "url": "https://github.com/projectblacklight/blacklight",
+  "tier": "bridge",
+  "role": "Discovery interface pattern for large archives"
+ },
+ {
+  "id": 77,
+  "repo": "vitest-dev/vitest",
+  "owner": "vitest-dev",
+  "name": "vitest",
+  "url": "https://github.com/vitest-dev/vitest",
+  "tier": "bridge",
+  "role": "Next step for frontend unit tests"
+ },
+ {
+  "id": 78,
+  "repo": "microsoft/playwright",
+  "owner": "microsoft",
+  "name": "playwright",
+  "url": "https://github.com/microsoft/playwright",
+  "tier": "bridge",
+  "role": "End-to-end tests for the guess and reveal flow"
+ },
+ {
+  "id": 79,
+  "repo": "testing-library/react-testing-library",
+  "owner": "testing-library",
+  "name": "react-testing-library",
+  "url": "https://github.com/testing-library/react-testing-library",
+  "tier": "bridge",
+  "role": "Component tests for the guess and reveal flow"
+ },
+ {
+  "id": 80,
+  "repo": "eslint/eslint",
+  "owner": "eslint",
+  "name": "eslint",
+  "url": "https://github.com/eslint/eslint",
+  "tier": "bridge",
+  "role": "Linting for the frontend"
+ },
+ {
+  "id": 81,
+  "repo": "prettier/prettier",
+  "owner": "prettier",
+  "name": "prettier",
+  "url": "https://github.com/prettier/prettier",
+  "tier": "bridge",
+  "role": "Formatting"
+ },
+ {
+  "id": 82,
+  "repo": "astral-sh/ruff",
+  "owner": "astral-sh",
+  "name": "ruff",
+  "url": "https://github.com/astral-sh/ruff",
+  "tier": "bridge",
+  "role": "Linting and formatting for the backend"
+ },
+ {
+  "id": 83,
+  "repo": "python-pillow/Pillow",
+  "owner": "python-pillow",
+  "name": "Pillow",
+  "url": "https://github.com/python-pillow/Pillow",
+  "tier": "bridge",
+  "role": "Thumbnail generation during ingestion"
+ },
+ {
+  "id": 84,
+  "repo": "mapillary/mapillary-js",
+  "owner": "mapillary",
+  "name": "mapillary-js",
+  "url": "https://github.com/mapillary/mapillary-js",
+  "tier": "bridge",
+  "role": "Open street-level imagery; a neighbouring geo-guessing idea"
+ },
+ {
+  "id": 85,
+  "repo": "rough-stuff/rough",
+  "owner": "rough-stuff",
+  "name": "rough",
+  "url": "https://github.com/rough-stuff/rough",
+  "tier": "craft",
+  "role": "Hand-drawn line style, a reference for the engraved look"
+ },
+ {
+  "id": 86,
+  "repo": "rough-stuff/rough-notation",
+  "owner": "rough-stuff",
+  "name": "rough-notation",
+  "url": "https://github.com/rough-stuff/rough-notation",
+  "tier": "craft",
+  "role": "Hand-drawn annotations for archival notes"
+ },
+ {
+  "id": 87,
+  "repo": "motiondivision/motion",
+  "owner": "motiondivision",
+  "name": "motion",
+  "url": "https://github.com/motiondivision/motion",
+  "tier": "craft",
+  "role": "Animation library for choreographed reveals"
+ },
+ {
+  "id": 88,
+  "repo": "mrdoob/three.js",
+  "owner": "mrdoob",
+  "name": "three.js",
+  "url": "https://github.com/mrdoob/three.js",
+  "tier": "craft",
+  "role": "3D engine for object turntables"
+ },
+ {
+  "id": 89,
+  "repo": "paperjs/paper.js",
+  "owner": "paperjs",
+  "name": "paper.js",
+  "url": "https://github.com/paperjs/paper.js",
+  "tier": "craft",
+  "role": "Vector scripting for engraved ornament"
+ },
+ {
+  "id": 90,
+  "repo": "processing/p5.js",
+  "owner": "processing",
+  "name": "p5.js",
+  "url": "https://github.com/processing/p5.js",
+  "tier": "craft",
+  "role": "Creative-coding toolkit for generative placeholder art"
+ },
+ {
+  "id": 91,
+  "repo": "observablehq/plot",
+  "owner": "observablehq",
+  "name": "plot",
+  "url": "https://github.com/observablehq/plot",
+  "tier": "craft",
+  "role": "Grammar-of-graphics charts for score history"
+ },
+ {
+  "id": 92,
+  "repo": "mapbox/delaunator",
+  "owner": "mapbox",
+  "name": "delaunator",
+  "url": "https://github.com/mapbox/delaunator",
+  "tier": "craft",
+  "role": "Fast triangulation for generative patterns"
+ },
+ {
+  "id": 93,
+  "repo": "mapbox/earcut",
+  "owner": "mapbox",
+  "name": "earcut",
+  "url": "https://github.com/mapbox/earcut",
+  "tier": "craft",
+  "role": "Polygon triangulation for filled map regions"
+ },
+ {
+  "id": 94,
+  "repo": "mourner/simplify-js",
+  "owner": "mourner",
+  "name": "simplify-js",
+  "url": "https://github.com/mourner/simplify-js",
+  "tier": "craft",
+  "role": "Line simplification for geodesic arcs"
+ },
+ {
+  "id": 95,
+  "repo": "mourner/flatbush",
+  "owner": "mourner",
+  "name": "flatbush",
+  "url": "https://github.com/mourner/flatbush",
+  "tier": "craft",
+  "role": "Spatial index for nearby-artifact lookups"
+ },
+ {
+  "id": 96,
+  "repo": "rsms/inter",
+  "owner": "rsms",
+  "name": "inter",
+  "url": "https://github.com/rsms/inter",
+  "tier": "craft",
+  "role": "Interface typeface considered for dense UI text"
+ },
+ {
+  "id": 97,
+  "repo": "CatharsisFonts/Cormorant",
+  "owner": "CatharsisFonts",
+  "name": "Cormorant",
+  "url": "https://github.com/CatharsisFonts/Cormorant",
+  "tier": "craft",
+  "role": "Classical display face, close kin of our title type"
+ },
+ {
+  "id": 98,
+  "repo": "radix-ui/primitives",
+  "owner": "radix-ui",
+  "name": "primitives",
+  "url": "https://github.com/radix-ui/primitives",
+  "tier": "craft",
+  "role": "Accessible dialog primitives for modals"
+ },
+ {
+  "id": 99,
+  "repo": "tailwindlabs/tailwindcss",
+  "owner": "tailwindlabs",
+  "name": "tailwindcss",
+  "url": "https://github.com/tailwindlabs/tailwindcss",
+  "tier": "craft",
+  "role": "Utility CSS considered; we kept a hand-written design system"
+ },
+ {
+  "id": 100,
+  "repo": "storybookjs/storybook",
+  "owner": "storybookjs",
+  "name": "storybook",
+  "url": "https://github.com/storybookjs/storybook",
+  "tier": "craft",
+  "role": "Component workshop for the UI"
+ },
+ {
+  "id": 101,
+  "repo": "pmndrs/zustand",
+  "owner": "pmndrs",
+  "name": "zustand",
+  "url": "https://github.com/pmndrs/zustand",
+  "tier": "craft",
+  "role": "Small state store if round state outgrows App.tsx"
+ },
+ {
+  "id": 102,
+  "repo": "TanStack/query",
+  "owner": "TanStack",
+  "name": "query",
+  "url": "https://github.com/TanStack/query",
+  "tier": "craft",
+  "role": "Server-state caching for the API client"
+ }
+]

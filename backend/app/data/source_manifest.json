@@ -1,0 +1,63 @@
+{
+  "manifest_version": "1.0.0",
+  "name": "Origlyph Curated Seed Dataset & Source Manifest",
+  "generated_at": "2026-10-27T07:00:00Z",
+  "description": "Curated cultural heritage seed records with verified coordinate anchors, source attribution, and rights statements. Demonstrates the provenance graph and progressive hint framework.",
+  "record_count": 8,
+  "playable_count": 7,
+  "fixture_count": 1,
+  "institutions": [
+    {
+      "name": "The Metropolitan Museum of Art",
+      "api_endpoint": "https://collectionapi.metmuseum.org/public/collection/v1",
+      "license_policy": "Open Access (CC0 1.0)",
+      "canonical_url_format": "https://www.metmuseum.org/art/collection/search/{id}"
+    },
+    {
+      "name": "The British Museum",
+      "api_endpoint": "https://www.britishmuseum.org/collection",
+      "license_policy": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
+      "canonical_url_format": "https://www.britishmuseum.org/collection/object/{id}"
+    },
+    {
+      "name": "Brooklyn Museum",
+      "api_endpoint": "https://www.brooklynmuseum.org/api/v2",
+      "license_policy": "Public Domain / Open Collection API",
+      "canonical_url_format": "https://www.brooklynmuseum.org/opencollection/objects/{id}"
+    },
+    {
+      "name": "Staatliche Museen zu Berlin / Neues Museum",
+      "api_endpoint": "https://recherche.smb.museum/",
+      "license_policy": "Public Domain for historical objects; photo attribution required",
+      "canonical_url_format": "https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/"
+    },
+    {
+      "name": "The Museum of Modern Art (MoMA)",
+      "api_endpoint": "https://github.com/MuseumofModernArt/collection",
+      "license_policy": "Artwork Public Domain; metadata CC0",
+      "canonical_url_format": "https://www.moma.org/collection/works/{id}"
+    },
+    {
+      "name": "Emperor Qinshihuang's Mausoleum Site Museum",
+      "api_endpoint": "http://www.bmy.com.cn",
+      "license_policy": "UNESCO World Heritage Relic Documentation",
+      "canonical_url_format": "http://www.bmy.com.cn/2015index/bmy_en/"
+    },
+    {
+      "name": "UNESCO World Heritage Centre",
+      "api_endpoint": "https://whc.unesco.org/en/list/",
+      "license_policy": "UNESCO Open Access / Public Record",
+      "canonical_url_format": "https://whc.unesco.org/en/list/{id}"
+    }
+  ],
+  "replacement_guidelines": {
+    "internet_archive": {
+      "strategy": "Use the Internet Archive Advanced Search API (query: mediatype:image AND (subject:cultural-heritage OR collection:metropolitanmuseumofart-gallery)) to retrieve item identifiers, download Dublin Core XML or JSON metadata, normalize spatial subject tags (coverage/spatial) into decimal latitude/longitude, and map into the Origlyph schema.",
+      "documentation": "docs/INTEGRATION_INTERNET_ARCHIVE.md"
+    },
+    "wikimedia_commons": {
+      "strategy": "Query Wikidata SPARQL endpoints for cultural heritage instances (P31/wd:Q839954 or P31/wd:Q3305213) with coordinates (P625), link to Commons media files (P18), and ingest verified licenses (P275).",
+      "documentation": "docs/INTEGRATION_ARCHIVES.md"
+    }
+  }
+}
