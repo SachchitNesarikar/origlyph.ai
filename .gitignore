@@ -23,6 +23,7 @@ htmlcov/
 # Environment & IDE
 .env
 .env.local
+.env.production
 .DS_Store
 Thumbs.db
 .vscode/

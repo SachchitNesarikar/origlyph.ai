@@ -117,6 +117,9 @@ Open `http://localhost:5173` in your browser.
 ### Multiplayer rooms
 Open **Play with friends** to create a private room or join with a six-character code. Each player gets one guess on the same artifact; scores appear on the shared leaderboard and room state survives backend restarts. Player access tokens are stored in that browser's local storage. SQLite room data is stored at `backend/data/rooms.sqlite3`, so this single-server setup requires a persistent disk if deployed to a host with ephemeral filesystems.
 
+### Deploy to DigitalOcean
+For a single-Droplet deployment with persistent room storage and automatic HTTPS, follow the [DigitalOcean deployment guide](./deploy/digitalocean/README.md). The guide uses the frontend production build and FastAPI in one Docker image, with Caddy for TLS; point a domain you control at the Droplet before starting the services.
+
 ---
 
 ## 🎮 Gameplay Flow
