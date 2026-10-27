@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: origlyph-demo
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    autoDeployTrigger: commit
+    envVars:
+      - key: ORIGLYPH_ENV
+        value: production

@@ -126,24 +126,18 @@ MONGODB_DB_NAME=origlyph
 
 ---
 
-## 4. Production Deployment on Render
+## 4. Render Deployment
 
-### Deployment Option: Unified Single Web Service (Recommended)
-FastAPI serves the built React/Vite distribution from `frontend/dist` when present.
+Render deploys the built React/Vite frontend and FastAPI backend together from
+the repository's Dockerfile. Use Docker runtime and `/api/health` as the health
+check path; the container binds to Render's `PORT` environment variable. The
+free demo configuration is in `render.yaml`.
 
-1. **Create Web Service** on Render connected to this repository.
-2. **Environment**: Python 3
-3. **Build Command**:
-   ```bash
-   cd frontend && npm install && npm run build && cd ../backend && pip install -r requirements.txt
-   ```
-4. **Start Command**:
-   ```bash
-   cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
-   ```
-5. **Environment Variables on Render**:
-   - `PORT`: Set automatically by Render.
-   - `ORIGLYPH_ENV`: `production`
+Render's free web-service filesystem is ephemeral and the service can spin down
+after inactivity. Since multiplayer room state uses local SQLite, rooms and
+scores may be lost on restart, spin-down, or deploy. For durable rooms, use a
+paid web service with a persistent disk mounted at `/app/backend/data`. See the
+[Render deployment guide](./deploy/render/README.md) for dashboard setup.
 
 ---
 
