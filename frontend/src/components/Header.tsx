@@ -1,7 +1,7 @@
 import React from 'react';
-import { Compass, BookOpen, Share2, HelpCircle, Heart } from 'lucide-react';
+import { Compass, BookOpen, Share2, HelpCircle, Heart, UsersRound } from 'lucide-react';
 
-export type AppView = 'game' | 'catalog' | 'global-graph' | 'credits';
+export type AppView = 'game' | 'catalog' | 'rooms' | 'global-graph' | 'credits';
 
 interface HeaderProps {
   currentView: AppView;
@@ -32,8 +32,9 @@ export const BrandMark: React.FC<{ size?: number }> = ({ size = 38 }) => (
 const NAV: Array<{ view: AppView; label: string; numeral: string; icon: React.ReactNode }> = [
   { view: 'game', label: 'Challenge', numeral: 'I', icon: <Compass size={15} /> },
   { view: 'catalog', label: 'Archive', numeral: 'II', icon: <BookOpen size={15} /> },
-  { view: 'global-graph', label: 'Provenance', numeral: 'III', icon: <Share2 size={15} /> },
-  { view: 'credits', label: 'Colophon', numeral: 'IV', icon: <Heart size={15} /> },
+  { view: 'rooms', label: 'Play with friends', numeral: 'III', icon: <UsersRound size={15} /> },
+  { view: 'global-graph', label: 'Provenance', numeral: 'IV', icon: <Share2 size={15} /> },
+  { view: 'credits', label: 'Colophon', numeral: 'V', icon: <Heart size={15} /> },
 ];
 
 export const Header: React.FC<HeaderProps> = ({

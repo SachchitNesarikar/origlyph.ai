@@ -18,6 +18,7 @@ venv/
 .pytest_cache/
 .coverage
 htmlcov/
+*.sqlite3
 
 # Environment & IDE
 .env

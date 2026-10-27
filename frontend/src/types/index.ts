@@ -110,3 +110,23 @@ export interface HealthResponse {
   total_artifacts: number;
   environment: string;
 }
+
+export interface RoomPlayerView {
+  nickname: string;
+  submitted: boolean;
+  score: number | null;
+}
+
+export interface RoomStateResponse {
+  room_code: string;
+  artifact: ArtifactChallengeView;
+  players: RoomPlayerView[];
+  player_count: number;
+  capacity: number;
+  own_guess: GuessResponse | null;
+}
+
+export interface RoomSessionResponse {
+  player_token: string;
+  room: RoomStateResponse;
+}

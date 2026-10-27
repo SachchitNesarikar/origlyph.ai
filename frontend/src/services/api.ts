@@ -5,6 +5,8 @@ import {
   HealthResponse,
   HintResponse,
   ProvenanceGraphResponse,
+  RoomSessionResponse,
+  RoomStateResponse,
 } from '../types';
 
 const API_BASE = '/api';
@@ -76,6 +78,30 @@ export const api = {
 
   getRelations: (id: string) =>
     request<ProvenanceGraphResponse>(`/artifacts/${id}/relations`),
+
+  createRoom: (nickname: string) =>
+    request<RoomSessionResponse>('/rooms', {
+      method: 'POST',
+      body: JSON.stringify({ nickname }),
+    }),
+
+  joinRoom: (roomCode: string, nickname: string) =>
+    request<RoomSessionResponse>(`/rooms/${encodeURIComponent(roomCode)}/join`, {
+      method: 'POST',
+      body: JSON.stringify({ nickname }),
+    }),
+
+  getRoom: (roomCode: string, playerToken: string) =>
+    request<RoomStateResponse>(`/rooms/${encodeURIComponent(roomCode)}`, {
+      headers: { 'X-Room-Token': playerToken },
+    }),
+
+  submitRoomGuess: (roomCode: string, playerToken: string, latitude: number, longitude: number) =>
+    request<RoomStateResponse>(`/rooms/${encodeURIComponent(roomCode)}/guess`, {
+      method: 'POST',
+      headers: { 'X-Room-Token': playerToken },
+      body: JSON.stringify({ latitude, longitude }),
+    }),
 
   narrateArtifact: async (id: string) => {
     const res = await fetch(`${API_BASE}/artifacts/${id}/narrate`, {

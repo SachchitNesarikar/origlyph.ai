@@ -99,15 +99,6 @@
   "role": "Routing, CORS, gzip and static mounting under FastAPI"
  },
  {
-  "id": 12,
-  "repo": "CartoDB/basemap-styles",
-  "owner": "CartoDB",
-  "name": "basemap-styles",
-  "url": "https://github.com/CartoDB/basemap-styles",
-  "tier": "stack",
-  "role": "Voyager basemap styles for the street tiles under the guess map"
- },
- {
   "id": 13,
   "repo": "pytest-dev/pytest",
   "owner": "pytest-dev",

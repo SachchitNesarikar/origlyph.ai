@@ -15,7 +15,23 @@ import { ProvenanceGraph } from './components/ProvenanceGraph';
 import { ArtifactCatalog } from './components/ArtifactCatalog';
 import { IntegrationGuideModal } from './components/IntegrationGuideModal';
 import { OpenSourceAtlas } from './components/OpenSourceAtlas';
+import { RoomsPage } from './components/RoomsPage';
 import { AlertCircle, X } from 'lucide-react';
+
+const LAST_STARTUP_ARTIFACT_KEY = 'origlyph.last-startup-artifact';
+
+const chooseNextImageArtifact = (artifacts: ArtifactChallengeView[]) => {
+  const withImages = artifacts.filter((artifact) => artifact.is_playable && artifact.media_url);
+  if (withImages.length === 0) {
+    return artifacts.find((artifact) => artifact.is_playable) || artifacts[0];
+  }
+
+  const previousId = window.localStorage.getItem(LAST_STARTUP_ARTIFACT_KEY);
+  const previousIndex = withImages.findIndex((artifact) => artifact.id === previousId);
+  const next = withImages[(previousIndex + 1) % withImages.length];
+  window.localStorage.setItem(LAST_STARTUP_ARTIFACT_KEY, next.id);
+  return next;
+};
 
 export const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<AppView>('game');
@@ -61,10 +77,9 @@ export const App: React.FC = () => {
         const data = await api.listArtifacts(false);
         setArtifacts(data);
 
-        // Select the first playable artifact
-        const firstPlayable = data.find((a) => a.is_playable) || data[0];
-        if (firstPlayable) {
-          setActiveArtifact(firstPlayable);
+        const startupArtifact = chooseNextImageArtifact(data);
+        if (startupArtifact) {
+          setActiveArtifact(startupArtifact);
         }
       } catch (err: any) {
         console.error('Failed to load artifacts:', err);
@@ -241,6 +256,8 @@ export const App: React.FC = () => {
           onSelectArtifact={handleSelectArtifact}
         />
       )}
+
+      {currentView === 'rooms' && <RoomsPage />}
 
       {/* Provenance Graph View */}
       {currentView === 'global-graph' && (

@@ -10,6 +10,7 @@ from fastapi.responses import FileResponse
 from .config import settings
 from .routes.health import router as health_router
 from .routes.artifacts import router as artifacts_router
+from .routes.rooms import router as rooms_router
 from .services.provenance import build_global_provenance_graph
 
 # Configure logging
@@ -40,6 +41,7 @@ app.add_middleware(GZipMiddleware, minimum_size=500)
 # Register API Routers
 app.include_router(health_router, prefix=settings.API_PREFIX)
 app.include_router(artifacts_router, prefix=settings.API_PREFIX)
+app.include_router(rooms_router, prefix=settings.API_PREFIX)
 
 
 @app.get(f"{settings.API_PREFIX}/provenance/global")

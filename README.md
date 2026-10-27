@@ -11,7 +11,7 @@ Rather than a generic chatbot or a basic geography quiz, Origlyph is built from 
 ## 🏛️ Key Features
 
 - **Editorial Cartographic Interface**: Designed with a deep forest-green palette (`#0b1311`), warm off-white typography, and museum archival aesthetics.
-- **Interactive Scored Challenge**: Place geographic guesses on an interactive Leaflet map rendered with OpenStreetMap / CartoDB tiles.
+- **Interactive Scored Challenge**: Place geographic guesses on an interactive Leaflet map using OpenStreetMap tiles, with no map API key required.
 - **Mathematical Distance & Exponential Scoring**:
   - Distance computed via the **Haversine formula** ($R = 6,371.0088\text{ km}$).
   - Exponential decay scoring: $\text{score} = \text{round}(5000 \times e^{-\text{distance\_km} / 1500})$.
@@ -22,6 +22,7 @@ Rather than a generic chatbot or a basic geography quiz, Origlyph is built from 
   3. **Archaeological Discovery Site**
   4. **Holding Museum / Collection**
 - **Provenance Graph Explorer**: Interactive connected-node SVG visualizer linking artifacts, master creators, historical places, cultural traditions, and museum collections.
+- **Private Multiplayer Rooms**: Create a six-character room code, invite up to seven friends, and compete on the same artifact with a shared score leaderboard. Room rounds and scores persist in a local SQLite database.
 - **Deterministic Baseline & Safe Fallbacks**: Functions 100% offline without requiring external API keys or cloud credentials. Includes procedural SVG artwork fallbacks if museum CDNs are unreachable.
 - **Anti-Leakage Safeguards**: Hidden answer coordinates are strictly stripped from client-facing payloads until a guess is submitted. Missing coordinates are never defaulted to `(0, 0)`.
 
@@ -112,6 +113,9 @@ npm install
 npm run dev
 ```
 Open `http://localhost:5173` in your browser.
+
+### Multiplayer rooms
+Open **Play with friends** to create a private room or join with a six-character code. Each player gets one guess on the same artifact; scores appear on the shared leaderboard and room state survives backend restarts. Player access tokens are stored in that browser's local storage. SQLite room data is stored at `backend/data/rooms.sqlite3`, so this single-server setup requires a persistent disk if deployed to a host with ephemeral filesystems.
 
 ---
 
